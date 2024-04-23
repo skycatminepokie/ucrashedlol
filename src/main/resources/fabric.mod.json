@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "daisy-daisy",
+	"version": "${version}",
+	"name": "daisy-daisy",
+	"description": "Mess with the crash log's header",
+	"authors": [
+		"skycatminepokie"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/skycatminepokie/daisy-daisy"
+	},
+	"license": "MIT",
+	"icon": "assets/daisy-daisy/icon.png",
+	"environment": "*",
+	"mixins": [
+		"daisy-daisy.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
