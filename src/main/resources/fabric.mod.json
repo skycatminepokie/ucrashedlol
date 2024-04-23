@@ -1,29 +1,24 @@
 {
 	"schemaVersion": 1,
-	"id": "daisy-daisy",
+	"id": "ucrashedlol",
 	"version": "${version}",
-	"name": "daisy-daisy",
+	"name": "ucrashedlol",
 	"description": "Mess with the crash log's header",
 	"authors": [
 		"skycatminepokie"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/skycatminepokie/daisy-daisy"
+		"sources": "https://github.com/skycatminepokie/ucrashedlol"
 	},
 	"license": "MIT",
-	"icon": "assets/daisy-daisy/icon.png",
+	"icon": "assets/ucrashedlol/icon.png",
 	"environment": "*",
 	"mixins": [
-		"daisy-daisy.mixins.json"
+		"ucrashedlol.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.10",
 		"minecraft": "~1.20.1",
-		"java": ">=17",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"java": ">=17"
 	}
 }
