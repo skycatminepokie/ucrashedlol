@@ -1,1 +1,2 @@
-- Made the mod
+- Generate config file when the game starts
+- Added README

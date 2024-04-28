@@ -10,6 +10,11 @@
 	"contact": {
 		"sources": "https://github.com/skycatminepokie/ucrashedlol"
 	},
+	"entrypoints": {
+		"main": [
+			"com.skycat.ucrashedlol.UCrashedLol"
+		]
+	},
 	"license": "MIT",
 	"icon": "assets/ucrashedlol/icon.png",
 	"environment": "*",
