@@ -64,13 +64,7 @@ public class UCrashedLol implements ModInitializer {
     public void onInitialize() {
         File configFile = FabricLoader.getInstance().getConfigDir().resolve(CONFIG_FILE_NAME).toFile();
         if (!configFile.exists()) {
-            try {
-                Method wittyCommentMethod = CrashReport.class.getDeclaredMethod("generateWittyComment");
-                wittyCommentMethod.setAccessible(true);
-                wittyCommentMethod.invoke(null);
-            } catch (NoSuchMethodException | InvocationTargetException | IllegalAccessException e) {
-                LOGGER.warn("Couldn't generate config file. We'll do it when we crash.");
-            }
+            CrashReport.generateWittyComment();
         }
     }
 }

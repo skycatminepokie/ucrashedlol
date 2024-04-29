@@ -25,5 +25,6 @@
 		"fabricloader": ">=0.15.10",
 		"minecraft": "~1.20.1",
 		"java": ">=17"
-	}
+	},
+	"accessWidener": "ucrashedlol.accesswidener"
 }
