@@ -1,6 +1,5 @@
 package com.skycat.ucrashedlol;
 
-import com.skycat.ucrashedlol.mixin.CrashReportMixin;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.util.crash.CrashReport;
@@ -10,8 +9,6 @@ import org.slf4j.LoggerFactory;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Scanner;
 
