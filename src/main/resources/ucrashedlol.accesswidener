@@ -1,2 +1,3 @@
 accessWidener v2 named
-accessible method net/minecraft/util/crash/CrashReport generateWittyComment ()Ljava/lang/String;
+accessible field net/minecraft/util/crash/ReportType nuggets Ljava/util/List;
+mutable field net/minecraft/util/crash/ReportType nuggets Ljava/util/List;
